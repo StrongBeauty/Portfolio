@@ -1,0 +1,25 @@
+.projectBlock {
+    width: 400px;
+    background-color: #ddf3ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+/*.skillContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}*/
+
+.icon {
+    height: 100%;
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+.description {
+
+}

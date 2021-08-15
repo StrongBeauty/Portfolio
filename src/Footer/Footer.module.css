@@ -1,0 +1,40 @@
+.footerBlock {
+    height: 35vh;
+    background-color: #ddf3ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name{
+    background-color: rgba(19,19,19,0.43);
+}
+
+.anyBlock {
+    border: 1px solid;
+    width: 280px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.any {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(19,19,19,0.43);
+}
+
+.copyright{
+    background-color: rgba(19,19,19,0.43);
+}
