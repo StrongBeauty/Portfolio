@@ -9,8 +9,8 @@
     justify-content: flex-start;
 }
 
-.hider {
-    height: 15vh;
+.header {
+    margin-bottom: 5vh;
 }
 
 .title {
@@ -21,7 +21,6 @@
 .projects {
     border: 1px solid;
     width: 100%;
-    height: 75%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

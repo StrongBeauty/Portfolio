@@ -9,8 +9,8 @@
     justify-content: flex-start;
 }
 
-.hider {
-    height: 15vh;
+.header {
+    margin-bottom: 5vh;
 }
 
 .title {
