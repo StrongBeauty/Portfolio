@@ -14,6 +14,8 @@ export const Projects = () => {
                 <div className={style.projects}>
                     <Project title={'Social Network'} description={'Text'} href={''}/>
                     <Project title={'ToDoList'} description={'Text'} href={''}/>
+                    <Project title={'Counter'} description={'Text'} href={''}/>
+                    <Project title={'Currency'} description={'Text'} href={''}/>
                 </div>
             </div>
         </div>

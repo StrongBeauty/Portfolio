@@ -9,12 +9,12 @@
 }
 
 .text {
-    width: 300px;
+    min-width: 330px;
     background-color: #ddf3ff;
 }
 
 .photo {
-    width: 300px;
+    min-width: 330px;
     height: 450px;
     background-color: #ddf3ff;
 }

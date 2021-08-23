@@ -6,6 +6,7 @@
     align-items: center;
     text-align: center;
 
+
 }
 
 /*.skillContainer {
@@ -15,8 +16,8 @@
 }*/
 
 .icon {
-    height: 100%;
-    width: 100%;
+    min-height: 285px;
+    width: 285px;
     background-color: dodgerblue;
 }
 

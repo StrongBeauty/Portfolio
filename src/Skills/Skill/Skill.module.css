@@ -1,5 +1,5 @@
 .skillBlock {
-    width: 250px;
+    min-width: 100%;
     background-color: #ddf3ff;
     display: flex;
     flex-direction: column;
