@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fb39bc3e.chunk.css",
-    "main.js": "/Portfolio/static/js/main.beab3d39.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.beab3d39.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.a82e31ea.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.a82e31ea.js.map",
-    "static/js/2.c90ec89a.chunk.js": "/Portfolio/static/js/2.c90ec89a.chunk.js",
-    "static/js/2.c90ec89a.chunk.js.map": "/Portfolio/static/js/2.c90ec89a.chunk.js.map",
-    "static/js/3.3366b4c1.chunk.js": "/Portfolio/static/js/3.3366b4c1.chunk.js",
-    "static/js/3.3366b4c1.chunk.js.map": "/Portfolio/static/js/3.3366b4c1.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.9726b28d.chunk.css",
+    "main.js": "/Portfolio/static/js/main.c8a09356.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c8a09356.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.967266a9.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.967266a9.js.map",
+    "static/css/2.c376335a.chunk.css": "/Portfolio/static/css/2.c376335a.chunk.css",
+    "static/js/2.8abf646b.chunk.js": "/Portfolio/static/js/2.8abf646b.chunk.js",
+    "static/js/2.8abf646b.chunk.js.map": "/Portfolio/static/js/2.8abf646b.chunk.js.map",
+    "static/js/3.0607fb3f.chunk.js": "/Portfolio/static/js/3.0607fb3f.chunk.js",
+    "static/js/3.0607fb3f.chunk.js.map": "/Portfolio/static/js/3.0607fb3f.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.fb39bc3e.chunk.css.map": "/Portfolio/static/css/main.fb39bc3e.chunk.css.map",
-    "static/js/2.c90ec89a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.c90ec89a.chunk.js.LICENSE.txt"
+    "static/css/2.c376335a.chunk.css.map": "/Portfolio/static/css/2.c376335a.chunk.css.map",
+    "static/css/main.9726b28d.chunk.css.map": "/Portfolio/static/css/main.9726b28d.chunk.css.map",
+    "static/js/2.8abf646b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8abf646b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Portfolio/static/media/roboto-mono-vietnamese-400-normal.baa5de8f.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.a82e31ea.js",
-    "static/js/2.c90ec89a.chunk.js",
-    "static/css/main.fb39bc3e.chunk.css",
-    "static/js/main.beab3d39.chunk.js"
+    "static/js/runtime-main.967266a9.js",
+    "static/css/2.c376335a.chunk.css",
+    "static/js/2.8abf646b.chunk.js",
+    "static/css/main.9726b28d.chunk.css",
+    "static/js/main.c8a09356.chunk.js"
   ]
 }
