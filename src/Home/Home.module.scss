@@ -1,0 +1,49 @@
+@import "../Common/Styles/Sass/Variables.scss";
+@import "../Common/Styles/Sass/mixins.scss";
+
+.homeBlock {
+  min-height: 92vh;
+  background-color: $primaryColor;
+
+  .homeContainer {
+
+    align-items: center;
+    justify-content: space-between;
+    background-color: $primaryColor;
+
+    .text {
+      max-width: 500px;
+      background-color: $primaryColor;
+      margin: 30px;
+      text-transform: uppercase;
+      position: relative;
+
+      & h1 {
+        @include h1($bgSecondColor);
+        padding: 20% 0 10% 0;
+
+      }
+
+      & h2 {
+        @include h2($bgSecondColor);
+        text-transform: capitalize;
+      }
+
+      & h3 {
+        @include h3($bgSecondColor);
+        padding: 10px 0 0;
+      }
+    }
+    .photo {
+      max-width: 330px;
+      width: 100%;
+      background-color: $bgColor;
+    }
+  }
+}
+
+
+
+
+
+

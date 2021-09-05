@@ -1,0 +1,47 @@
+@import './Variables.scss';
+
+@mixin text( $font-size, $line-height, $font-weight, $color) {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  color: $color;
+}
+
+@mixin h1($color) {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 50px;
+  line-height: 1.2em;
+  font-weight: 400;
+  letter-spacing: .05em;
+  color: $color;
+  margin: 0;
+}
+
+@mixin h2($color) {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 45px;
+  line-height: 1.222222222222222em;
+  font-weight: 400;
+  letter-spacing: .05em;
+  color: $color;
+  margin: 0;
+}
+
+@mixin h3($color) {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 35px;
+  line-height: 28px;
+  font-weight: 400;
+  color: $color;
+  margin: 0;
+}
+
+@mixin h5($color) {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 16px;
+  line-height: 1.75px;
+  font-weight: 500;
+  color: $color;
+  margin: 0;
+}

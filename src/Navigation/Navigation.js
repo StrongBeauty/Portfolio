@@ -1,13 +1,13 @@
 import React from 'react'
-import style from './Navigation.module.css'
+import style from './Navigation.module.scss'
 
 export const Navigation = () => {
     return (
         <div className={style.nav}>
-            <a href=''>Home</a>
-            <a href=''>Skills</a>
-            <a href=''>Projects</a>
-            <a href=''>Contacts</a>
+            <a className={style.text} href=''>home</a>
+            <a className={style.text} href=''>skills</a>
+            <a className={style.text} href=''>projects</a>
+            <a className={style.text} href=''>contacts</a>
         </div>
     )
 }

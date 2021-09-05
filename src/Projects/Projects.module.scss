@@ -1,0 +1,35 @@
+@import "../Common/Styles/Sass/Variables.scss";
+@import "../Common/Styles/Sass/mixins.scss";
+
+
+.projectsBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+
+  .projectsContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .header {
+      margin-bottom: 5vh;
+    }
+
+    .projects {
+      border: 1px solid;
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      align-items: flex-start;
+
+      @media screen and (max-width: 999px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+

@@ -3,6 +3,7 @@ import style from './Contacts.module.css'
 import styleContainer from '../Common/Styles/Container.module.css'
 import {Footer} from "../Footer/Footer";
 import {useForm} from 'react-hook-form';
+import {Title} from "../Common/Components/Title/Title";
 
 
 export const Contacts = () => {
@@ -15,7 +16,7 @@ export const Contacts = () => {
         <div className={style.contactsBlock}>
 
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                <h2 className={style.text}>Contacts</h2>
+                <Title text={'Contacts'}/>
 
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className={style.form}>

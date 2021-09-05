@@ -1,0 +1,23 @@
+@import "../Styles/Sass/mixins.scss";
+@import "../Styles/Sass/Variables.scss";
+
+.text {
+  @include text(15px, 28px, 300, $textThirdColor);
+}
+
+.title {
+  @include text(15px, 28px, 300, $textThirdColor);
+
+
+    @include text(35px, 28px, 400, $textColor);
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0;
+
+
+  & h5 {
+    @include text(16px, 1.75px, 500, $textColor);
+    letter-spacing: .15em;
+    margin: 0;
+  }
+}
