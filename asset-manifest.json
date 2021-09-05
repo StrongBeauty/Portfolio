@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9726b28d.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c8a09356.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c8a09356.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.f9a6a82e.chunk.css",
+    "main.js": "/Portfolio/static/js/main.1fb8adff.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.1fb8adff.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.967266a9.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.967266a9.js.map",
     "static/css/2.c376335a.chunk.css": "/Portfolio/static/css/2.c376335a.chunk.css",
-    "static/js/2.8abf646b.chunk.js": "/Portfolio/static/js/2.8abf646b.chunk.js",
-    "static/js/2.8abf646b.chunk.js.map": "/Portfolio/static/js/2.8abf646b.chunk.js.map",
+    "static/js/2.f91feed9.chunk.js": "/Portfolio/static/js/2.f91feed9.chunk.js",
+    "static/js/2.f91feed9.chunk.js.map": "/Portfolio/static/js/2.f91feed9.chunk.js.map",
     "static/js/3.0607fb3f.chunk.js": "/Portfolio/static/js/3.0607fb3f.chunk.js",
     "static/js/3.0607fb3f.chunk.js.map": "/Portfolio/static/js/3.0607fb3f.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.c376335a.chunk.css.map": "/Portfolio/static/css/2.c376335a.chunk.css.map",
-    "static/css/main.9726b28d.chunk.css.map": "/Portfolio/static/css/main.9726b28d.chunk.css.map",
-    "static/js/2.8abf646b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8abf646b.chunk.js.LICENSE.txt",
+    "static/css/main.f9a6a82e.chunk.css.map": "/Portfolio/static/css/main.f9a6a82e.chunk.css.map",
+    "static/js/2.f91feed9.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f91feed9.chunk.js.LICENSE.txt",
+    "static/media/h9-port-img-2.51e78d85.jpg": "/Portfolio/static/media/h9-port-img-2.51e78d85.jpg",
+    "static/media/h9-port-img-5.70bd4e7f.jpg": "/Portfolio/static/media/h9-port-img-5.70bd4e7f.jpg",
+    "static/media/port-gallery-img-10.109c7f80.jpg": "/Portfolio/static/media/port-gallery-img-10.109c7f80.jpg",
+    "static/media/port-gallery-img-6.0916aafd.jpg": "/Portfolio/static/media/port-gallery-img-6.0916aafd.jpg",
     "static/media/index.css": "/Portfolio/static/media/roboto-mono-vietnamese-400-normal.baa5de8f.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.967266a9.js",
     "static/css/2.c376335a.chunk.css",
-    "static/js/2.8abf646b.chunk.js",
-    "static/css/main.9726b28d.chunk.css",
-    "static/js/main.c8a09356.chunk.js"
+    "static/js/2.f91feed9.chunk.js",
+    "static/css/main.f9a6a82e.chunk.css",
+    "static/js/main.1fb8adff.chunk.js"
   ]
 }
