@@ -1,11 +1,11 @@
 import React from 'react'
 import style from './Header.module.scss'
-import {Navigation} from "../Navigation/Navigation";
+import {Navigation} from "../Common/Components/Navigation/Navigation";
 
 export const Header = () => {
     return (
-        <div className={style.header}>
+        <header className={style.header}>
             <Navigation />
-        </div>
+        </header>
     )
 }

@@ -5,6 +5,7 @@
 .projectsBlock {
   min-height: 100vh;
   background-color: $bgColor;
+  padding: 0 7% 1%;
 
   .projectsContainer {
     align-items: center;
@@ -16,7 +17,6 @@
     }
 
     .projects {
-      border: 1px solid;
       max-width: 100%;
       display: flex;
       justify-content: center;
@@ -27,7 +27,7 @@
       @media screen and (max-width: 999px) {
         justify-content: center;
       }
-    }
+          }
   }
 }
 

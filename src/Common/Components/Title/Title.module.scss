@@ -1,7 +1,7 @@
 @import "../../Styles/Sass/mixins.scss";
 @import "../../Styles/Sass/Variables.scss";
 
-.text {
+.message {
   font-family: "Roboto Mono", sans-serif;
   font-size: 15px;
   line-height: 28px;
@@ -15,7 +15,8 @@
   text-transform: uppercase;
   position: relative;
 
-  & h3 {
+
+  & h2 {
     @include h3($textColor);
   }
 
@@ -25,7 +26,7 @@
     height: 1px;
     width: 100%;
     border-top: 1px solid #002fef;
-    bottom: -30px;
+    bottom: -20px;
   }
 }
 

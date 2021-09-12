@@ -8,9 +8,9 @@
     flex-direction: column;
     padding: 7px;
 
+
     .icon {
         height: 380px;
-        background-color: dodgerblue;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -29,14 +29,7 @@
             right: 0;
         }
 
-        .viewBtn{
-            background-color: $bgSecondColor;
-            padding: 10px 20px;
-            position: relative;
-            z-index: 1;
-            text-decoration: $textColor;
 
-        }
     }
 
     .projectInfo{
@@ -45,6 +38,7 @@
             @include h5($textColor);
             text-transform: uppercase;
             padding: 10px 0;
+
 
         }
 

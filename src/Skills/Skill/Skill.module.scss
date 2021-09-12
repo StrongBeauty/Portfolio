@@ -1,0 +1,76 @@
+@import "../../Common/Styles/Sass/Variables";
+@import "../../Common/Styles/Sass/mixins";
+
+.skillBlock {
+  width: 300px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0 30px 70px;
+
+
+  .skillTitle {
+    @include h4($textColor);
+    margin: 0;
+    padding: 30px 30px;
+    text-align: center;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    position: relative;
+box-sizing: border-box;
+    &::before {
+      content: '';
+      position: absolute;
+      padding: 20px;
+      height: 1px;
+      width: 170px;
+      border-top: 1px solid #002fef;
+      bottom: -15px;
+      left: 50%;
+      transform: translate(-50%, 50%);
+
+    }
+
+  }
+
+  .icon {
+    height: 75px;
+    margin: 28px 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+
+
+  .description {
+    @include text( 15px, 28px, 300, $textThirdColor);
+    margin: 30px;
+    text-align: center;
+  }
+
+}
+
+/*.skillContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}*/
+
+
+
+

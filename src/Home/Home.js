@@ -1,20 +1,26 @@
 import React from 'react'
 import style from './Home.module.scss'
-import styleContainer from '../Common/Styles/Container.module.css'
+import styleContainer from '../Common/Styles/Container.module.scss'
+import Photo from "./../assets/image/photo2.png"
 
 
 export const Home = () => {
+
+    const photo = {
+        backgroundImage: `url(${Photo})`,
+    };
+
     return (
-        <div className={style.homeBlock}>
+        <div id={'home'} className={style.homeBlock}>
             <div className={`${styleContainer.container} ${style.homeContainer}`}>
                 <div className={style.text}>
 
-                        <h2>Hi There</h2>
-                        <h1>I'm Anastasiya</h1>
-                        <h3>Frontend Developer</h3>
+                        <h3 className={style.hi}>Hi There</h3>
+                        <h2>I'm Anastasiya</h2>
+                        <h1>Frontend Developer</h1>
 
                 </div>
-                <div className={style.photo}>Photo</div>
+                <div style={photo} className={style.photo}></div>
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Projects.module.scss'
-import styleContainer from '../Common/Styles/Container.module.css'
+import styleContainer from '../Common/Styles/Container.module.scss'
 import {Project} from "./Project/Project";
 import {Title} from '../Common/Components/Title/Title'
 import "@fontsource/roboto-mono"
@@ -26,7 +26,7 @@ export const Projects = () => {
 
     return (
 
-        <div className={`${styleContainer.block} ${style.projectsBlock}`}>
+        <div id={'projects'} className={`${styleContainer.block} ${style.projectsBlock}`}>
 
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <div className={style.header}>
@@ -38,6 +38,7 @@ export const Projects = () => {
                     <Project style={counter} title={'Counter'} description={'There will be a description of my project soon'} href={''}/>
                     <Project style={tdl} title={'Currency'} description={'There will be a description of my project soon'} href={''}/>
                 </div>
+
             </div>
         </div>
     )

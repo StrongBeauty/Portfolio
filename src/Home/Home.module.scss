@@ -12,32 +12,62 @@
     background-color: $primaryColor;
 
     .text {
-      max-width: 500px;
+      max-width: 550px;
       background-color: $primaryColor;
-      margin: 30px;
+      margin: 30px 0 30px 0;
       text-transform: uppercase;
       position: relative;
 
+      .hi {
+        text-transform: capitalize;
+      }
+
       & h1 {
-        @include h1($bgSecondColor);
-        padding: 20% 0 10% 0;
+        @include h4($bgSecondColor);
+
+        font-size: 16px;
+        line-height: 1.75em;
+        font-weight: 500;
+        letter-spacing: .15em;
+
 
       }
 
       & h2 {
-        @include h2($bgSecondColor);
-        text-transform: capitalize;
+        @include h3($bgSecondColor);
+        margin: 20% 0 10%;
+
       }
 
       & h3 {
-        @include h3($bgSecondColor);
-        padding: 10px 0 0;
+        @include h2($bgSecondColor);
+        margin-top: 35px;
       }
     }
+
     .photo {
-      max-width: 330px;
+      margin-top: 30px;
+      max-width: 360px;
       width: 100%;
-      background-color: $bgColor;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+
+
+      &::before {
+        position: absolute;
+        content: '';
+        background-color: $primaryColor;
+        opacity: 0.3;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
     }
   }
 }
