@@ -8,7 +8,6 @@
     flex-direction: column;
     padding: 7px;
 
-
     .icon {
         height: 380px;
         display: flex;
@@ -28,8 +27,6 @@
             left: 0;
             right: 0;
         }
-
-
     }
 
     .projectInfo{
@@ -52,6 +49,8 @@
             margin: 0 9px 0 0;
             letter-spacing: .05em;
             z-index: 8;
+
+
         }
     }
 }

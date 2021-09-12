@@ -15,7 +15,6 @@ import ReduxIcon from "./../assets/image/redux.png"
 import CssIcon from "./../assets/image/css.png"
 
 
-
 export const Skills = () => {
 
     return (
@@ -25,17 +24,26 @@ export const Skills = () => {
                     <Title text={'Skills'}/>
                 </div>
                 <div className={style.skills}>
-                    <Skill src={ReactIcon} title={'React'} description={'There will be a description of this technology soon.'}/>
-                    <Skill src={ReduxIcon} title={'Redux'} description={'There will be a description of this technology soon.'}/>
-                    <Skill src={JSIcon} title={'JavaScript'} description={'There will be a description of this technology soon.'}/>
-                    <Skill src={TSIcon} title={'TypeScript'} description={'There will be a description of this technology soon.'}/>
-                    <Skill src={CssIcon} title={'CSS'} description={'There will be a description of this technology soon.'}/>
-                    <Skill src={SassIcon} title={'Sass'} description={'There will be a description of this technology soon.'}/>
-                    <Skill src={HtmlIcon} title={'Html'} description={'There will be a description of this technology soon.'}/>
-                    <Skill src={GitIcon} title={'Git'} description={'There will be a description of this technology soon.'}/>
-                    <Skill src={FormikIcon} title={'Formik'} description={'There will be a description of this technology soon.'}/>
-                    <Skill src={MaterialUiIcon} title={'Material Ui'} description={'There will be a description of this technology soon.'}/>
-
+                    <Skill src={ReactIcon} title={'React'}
+                           description={'There will be a description of this technology soon.'}/>
+                    <Skill src={ReduxIcon} title={'Redux'}
+                           description={'There will be a description of this technology soon.'}/>
+                    <Skill src={JSIcon} title={'JavaScript'}
+                           description={'There will be a description of this technology soon.'}/>
+                    <Skill src={TSIcon} title={'TypeScript'}
+                           description={'There will be a description of this technology soon.'}/>
+                    <Skill src={CssIcon} title={'CSS'}
+                           description={'There will be a description of this technology soon.'}/>
+                    <Skill src={SassIcon} title={'Sass'}
+                           description={'There will be a description of this technology soon.'}/>
+                    <Skill src={HtmlIcon} title={'Html'}
+                           description={'There will be a description of this technology soon.'}/>
+                    <Skill src={GitIcon} title={'Git'}
+                           description={'There will be a description of this technology soon.'}/>
+                    <Skill src={FormikIcon} title={'Formik'}
+                           description={'There will be a description of this technology soon.'}/>
+                    <Skill src={MaterialUiIcon} title={'Material Ui'}
+                           description={'There will be a description of this technology soon.'}/>
                 </div>
             </div>
         </div>

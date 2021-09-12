@@ -14,13 +14,11 @@ export const Home = () => {
         <div id={'home'} className={style.homeBlock}>
             <div className={`${styleContainer.container} ${style.homeContainer}`}>
                 <div className={style.text}>
-
                         <h3 className={style.hi}>Hi There</h3>
                         <h2>I'm Anastasiya</h2>
                         <h1>Frontend Developer</h1>
-
                 </div>
-                <div style={photo} className={style.photo}></div>
+                <div  className={style.photo}></div>
             </div>
         </div>
     )

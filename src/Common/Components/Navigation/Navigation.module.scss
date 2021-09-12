@@ -4,18 +4,15 @@
 
 .nav {
     border-bottom: 1px solid #fff;
-    padding: 20px 8% 0px 0px;
+    padding: 20px 8% 0 0;
     box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
     float: right;
     height: 100%;
 
     .text {
         @include text (14px, 25px, 400, $bgSecondColor);
-
         text-decoration: none;
         padding: 0 20px;
+        box-sizing: border-box;
     }
 }

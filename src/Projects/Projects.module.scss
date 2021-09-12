@@ -3,30 +3,31 @@
 
 
 .projectsBlock {
-  min-height: 100vh;
+
   background-color: $bgColor;
-  padding: 0 7% 1%;
+  margin-bottom: 3vh;
+
 
   .projectsContainer {
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
+    max-width: 1400px;
+    width: 100%;
 
     .header {
-      margin-bottom: 5vh;
+      padding: 10vh 0 4vh 80px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      align-items: flex-start;
     }
 
     .projects {
-      max-width: 100%;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      margin-top: 30px;
       align-items: flex-start;
 
-      @media screen and (max-width: 999px) {
-        justify-content: center;
-      }
+
           }
   }
 }

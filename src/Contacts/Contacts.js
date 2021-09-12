@@ -1,7 +1,6 @@
 import React from 'react'
 import style from './Contacts.module.scss'
 import styleContainer from '../Common/Styles/Container.module.scss'
-import {Footer} from "../Footer/Footer";
 import {useForm} from 'react-hook-form';
 import {Title} from "../Common/Components/Title/Title";
 
@@ -11,7 +10,6 @@ export const Contacts = () => {
     const {register, handleSubmit, formState: {errors}} = useForm();
     const onSubmit = values => console.log(values);
     console.log(errors);
-
 
     return (
         <div id='contacts' className={style.contactsBlock}>
@@ -31,7 +29,7 @@ export const Contacts = () => {
                             required: true,
                             minLength: 11,
                             maxLength: 14,
-                            pattern: /\+?[0-9\s\-\(\)]+/i
+                            pattern: /\+?[0-9\s\-()]+/i
                         })} />
                     {(errors.Number &&
                         <span className={style.errors}>Error</span>)}
@@ -41,9 +39,8 @@ export const Contacts = () => {
                     {(errors.Email &&
                         <span className={style.errors}>Error</span>)}
                         <textarea className={style.message}  placeholder="Message" {...register("message", )} />
-                    <div >
+                    <div className={style.buttonBlock}>
                         <input className={style.button} type="submit"/>
-
                     </div>
                 </form>
             </div>

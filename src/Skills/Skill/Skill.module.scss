@@ -9,7 +9,7 @@
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  margin: 0 30px 70px;
+  margin: 0 20px 70px;
 
 
   .skillTitle {
@@ -62,7 +62,10 @@ box-sizing: border-box;
     margin: 30px;
     text-align: center;
   }
+  @media screen and (max-width: 574px) {
+    min-width: 300px;
 
+  }
 }
 
 /*.skillContainer {

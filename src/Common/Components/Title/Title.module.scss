@@ -1,32 +1,15 @@
 @import "../../Styles/Sass/mixins.scss";
 @import "../../Styles/Sass/Variables.scss";
 
-.message {
-  font-family: "Roboto Mono", sans-serif;
-  font-size: 15px;
-  line-height: 28px;
-  font-weight: 300;
-  color: #2a2a2a;
-}
-
 .title {
   @include text(15px, 1.285714285714286em, 300, $textColor);
   margin: 30px;
   text-transform: uppercase;
-  position: relative;
+
 
 
   & h2 {
-    @include h3($textColor);
-  }
-
-  &::before {
-    content: '';
-    position: absolute;
-    height: 1px;
-    width: 100%;
-    border-top: 1px solid #002fef;
-    bottom: -20px;
+    @include h2($textThirdColor);
   }
 }
 

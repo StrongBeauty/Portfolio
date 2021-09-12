@@ -18,7 +18,7 @@ export const Footer = () => {
                 </div>
 
                 <div className={style.contactsBlock}>
-                    <a href='http://linkedin.com/in/anastasiya-volkava-363607220'><img src={LN} alt='' className={style.contacts}></img></a>
+                    <a href='https://www.linkedin.com/in/anastasiyavolkava'><img src={LN} alt='' className={style.contacts}></img></a>
                     <a href='https://t.me/strong_beauty'><img src={Tg} alt='' className={style.contacts}></img></a>
                     <a href='https://github.com/StrongBeauty'><img src={Git} alt='' className={style.contacts}></img></a>
                     <a href='https://www.codewars.com/users/%20Anastasiya'><img src={Codewars} alt='' className={style.contacts}></img></a>
