@@ -39,7 +39,7 @@ export const Projects = () => {
                 <div className={style.projects}>
                     <Project style={social} title={'Social Network'} description={'There will be a description of my project soon'} href={''}/>
                     <Project style={todolist} title={'ToDoList'} description={'There will be a description of my project soon'} href={''}/>
-                    <Project style={slider} title={'Slider'} description={'There will be a description of my project soon'} href={''}/>
+                    <Project style={slider} title={'Slider'} description={'There will be a description of my project soon'} href={'https://strongbeauty.github.io/CardsSources/'}/>
                     <Project style={counter} title={'Counter'} description={'There will be a description of my project soon'} href={''}/>
                     <Project style={tdl} title={'Currency'} description={'There will be a description of my project soon'} href={''}/>
                 </div>
