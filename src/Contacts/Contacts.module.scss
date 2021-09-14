@@ -15,7 +15,7 @@
     .header {
       padding-top: 10vh;
       margin-bottom: 5vh;
-      margin-right: 48vw;
+      margin-right: 50vw;
     }
 
     .formBlock {
@@ -84,6 +84,12 @@
           display: inline-block;
           vertical-align: middle;
         }
+      }
+      @media screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
       }
     }
   }
