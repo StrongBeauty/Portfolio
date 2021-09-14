@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ab71e02f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d63d99ec.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d63d99ec.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.3ab0817a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.3ab0817a.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.67139ed4.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.67139ed4.js.map",
     "static/css/2.c376335a.chunk.css": "/Portfolio/static/css/2.c376335a.chunk.css",
@@ -24,7 +24,10 @@
     "static/media/h9-port-img-5.70bd4e7f.jpg": "/Portfolio/static/media/h9-port-img-5.70bd4e7f.jpg",
     "static/media/photo2.04a751eb.png": "/Portfolio/static/media/photo2.04a751eb.png",
     "static/media/port-gallery-img-10.109c7f80.jpg": "/Portfolio/static/media/port-gallery-img-10.109c7f80.jpg",
+    "static/media/port-gallery-img-3.21cbb3a7.jpg": "/Portfolio/static/media/port-gallery-img-3.21cbb3a7.jpg",
+    "static/media/port-gallery-img-4.0eca3091.jpg": "/Portfolio/static/media/port-gallery-img-4.0eca3091.jpg",
     "static/media/port-gallery-img-6.0916aafd.jpg": "/Portfolio/static/media/port-gallery-img-6.0916aafd.jpg",
+    "static/media/port-gallery-img-8.9d424c9e.jpg": "/Portfolio/static/media/port-gallery-img-8.9d424c9e.jpg",
     "static/media/redux.f63dffb2.png": "/Portfolio/static/media/redux.f63dffb2.png",
     "static/media/index.css": "/Portfolio/static/media/roboto-mono-vietnamese-400-normal.baa5de8f.woff2",
     "static/media/sass.ac7ec0e6.png": "/Portfolio/static/media/sass.ac7ec0e6.png",
@@ -36,6 +39,6 @@
     "static/css/2.c376335a.chunk.css",
     "static/js/2.18445692.chunk.js",
     "static/css/main.ab71e02f.chunk.css",
-    "static/js/main.d63d99ec.chunk.js"
+    "static/js/main.3ab0817a.chunk.js"
   ]
 }
