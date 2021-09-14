@@ -62,9 +62,7 @@ export const Projects = () => {
                     <Project style={counter} title={'Counter'} description={'There will be a description of my project soon'} href={''}/>
                     <Project style={cards} title={'Cards'} description={'Drop-Down Cards Plugin created of Javasscript'} href={'https://strongbeauty.github.io/CardsSources/'}/>
                     <Project style={dragDrop} title={'Drag & Drop'} description={'Drag & Drop created of Javasscript'} href={'https://strongbeauty.github.io/DragnDrop/'}/>
-
                 </div>
-
             </div>
         </div>
     )
