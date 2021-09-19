@@ -40,7 +40,7 @@ export const Contacts = () => {
                         <span className={style.errors}>Error</span>)}
                         <textarea className={style.message}  placeholder="Message" {...register("message", )} />
                     <div className={style.buttonBlock}>
-                        <input className={style.button} type="submit"/>
+                        <button className={style.button} type="submit">Send</button>
                     </div>
                 </form>
             </div>

@@ -2,7 +2,6 @@
 @import "../Common/Styles/Sass/mixins.scss";
 
 .footerBlock {
-  height: 35vh;
   background-color: $textColor;
   display: flex;
   flex-direction: column;
@@ -20,12 +19,13 @@
 
 
     .button {
-      @include text(15px, 25px, 600, black);
+      @include text(15px, 25px, 600, $textColor);
       cursor: pointer;
+      margin-top: 15px;
       padding: 9px 14px;
-      background-color: #fff;
-      border: 1px solid #fff;
-      color: black;
+      background-color: $bgColor;
+      border: 1px solid $bgColor;
+      color: $textColor;
       position: relative;
       width: auto;
       letter-spacing: 0.05em;
