@@ -72,7 +72,7 @@
         display: flex;
 
         .button {
-          @include text(14px, 25px, 500, $textColor);
+          @include text(14px, 25px, 600, $textColor);
           background-color: $bgSecondColor;
           border: none;
           width: auto;
