@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d14dc3df.chunk.css",
-    "main.js": "/Portfolio/static/js/main.8795f8ef.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.8795f8ef.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.e69d4d99.chunk.css",
+    "main.js": "/Portfolio/static/js/main.27e8c043.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.27e8c043.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.17e8824b.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.17e8824b.js.map",
     "static/css/2.c376335a.chunk.css": "/Portfolio/static/css/2.c376335a.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.a9a62ba3.chunk.js.map": "/Portfolio/static/js/3.a9a62ba3.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.c376335a.chunk.css.map": "/Portfolio/static/css/2.c376335a.chunk.css.map",
-    "static/css/main.d14dc3df.chunk.css.map": "/Portfolio/static/css/main.d14dc3df.chunk.css.map",
+    "static/css/main.e69d4d99.chunk.css.map": "/Portfolio/static/css/main.e69d4d99.chunk.css.map",
     "static/js/2.51cec58d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.51cec58d.chunk.js.LICENSE.txt",
     "static/media/blog-post-6.50b6b582.jpg": "/Portfolio/static/media/blog-post-6.50b6b582.jpg",
     "static/media/codewars.735c33ef.png": "/Portfolio/static/media/codewars.735c33ef.png",
@@ -22,7 +22,7 @@
     "static/media/h9-port-img-1.e2e329e5.jpg": "/Portfolio/static/media/h9-port-img-1.e2e329e5.jpg",
     "static/media/h9-port-img-2.51e78d85.jpg": "/Portfolio/static/media/h9-port-img-2.51e78d85.jpg",
     "static/media/h9-port-img-5.70bd4e7f.jpg": "/Portfolio/static/media/h9-port-img-5.70bd4e7f.jpg",
-    "static/media/photo.0cb54864.jpg": "/Portfolio/static/media/photo.0cb54864.jpg",
+    "static/media/photo.04703e57.jpg": "/Portfolio/static/media/photo.04703e57.jpg",
     "static/media/port-gallery-img-10.109c7f80.jpg": "/Portfolio/static/media/port-gallery-img-10.109c7f80.jpg",
     "static/media/port-gallery-img-3.21cbb3a7.jpg": "/Portfolio/static/media/port-gallery-img-3.21cbb3a7.jpg",
     "static/media/port-gallery-img-4.0eca3091.jpg": "/Portfolio/static/media/port-gallery-img-4.0eca3091.jpg",
@@ -38,7 +38,7 @@
     "static/js/runtime-main.17e8824b.js",
     "static/css/2.c376335a.chunk.css",
     "static/js/2.51cec58d.chunk.js",
-    "static/css/main.d14dc3df.chunk.css",
-    "static/js/main.8795f8ef.chunk.js"
+    "static/css/main.e69d4d99.chunk.css",
+    "static/js/main.27e8c043.chunk.js"
   ]
 }
