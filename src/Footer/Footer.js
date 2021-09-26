@@ -6,11 +6,13 @@ import Tg from "./../assets/image/telegram.png"
 import LN from "./../assets/image/link.png"
 import Codewars from "./../assets/image/codewars.png"
 import {Link} from "react-scroll";
+import Fade from 'react-reveal/Fade';
 
 export const Footer = () => {
     return (
-        <div className={style.footerBlock}>
 
+        <div className={style.footerBlock}>
+            <Fade bottom>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <Link   href={'#home'} to={'home'} className={style.button}>home</Link>
                 <div className={style.infoBlock}><p><a href='tel:+375333888820' className={style.info}>+375333888820</a></p>
@@ -28,6 +30,8 @@ export const Footer = () => {
                 <p className={style.copyright}>2021 Copyright. All rights reserved.</p>
             </div>
             </div>
+            </Fade>
         </div>
+
     )
 }

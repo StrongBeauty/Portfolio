@@ -61,3 +61,13 @@
   color: $color;
   margin: 0;
 }
+
+@mixin h5($color) {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 16px;
+  line-height: 1.75px;
+  font-weight: 500;
+  color: $color;
+  margin: 0;
+}
+

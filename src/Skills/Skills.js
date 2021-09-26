@@ -19,10 +19,12 @@ export const Skills = () => {
 
     return (
         <div id={'skills'} className={style.skillsBlock}>
+
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <div className={style.header}>
-                    <Title text={'Skills'}/>
+                    <Title text={' Skills'}/>
                 </div>
+
                 <div className={style.skills}>
                     <Skill src={ReactIcon} title={'React'}
                            description={'There will be a description of this technology soon.'}/>
@@ -45,6 +47,7 @@ export const Skills = () => {
                     <Skill src={MaterialUiIcon} title={'Material Ui'}
                            description={'There will be a description of this technology soon.'}/>
                 </div>
+
             </div>
         </div>
     )

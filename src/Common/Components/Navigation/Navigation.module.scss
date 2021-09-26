@@ -9,11 +9,16 @@
     float: right;
     height: 100%;
 
+
     .text {
         @include text (14px, 25px, 400, $bgSecondColor);
         text-decoration: none;
         padding: 0 20px;
         box-sizing: border-box;
+
+        &:hover {
+            @include text(14px, 25px, 700, $bgColor);
+        }
 
         @media screen and (max-width: 450px) {
             padding: 0 14px;

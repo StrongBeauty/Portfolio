@@ -32,12 +32,29 @@
       outline: 0;
       text-transform: uppercase;
       text-decoration: none;
+
+      &:hover {
+        background: $primaryColor;
+        border: 1px solid $primaryColor;
+        color: $bgColor;
+      }
     }
 
     .infoBlock {
       .info {
         @include text(15px, 23px, 400, #d4d4d4);
         text-decoration: none;
+
+        &:hover {
+          @include text(15px, 23px, 700, $bgColor);
+        }
+
+
+        &:hover {
+          -webkit-transform: scale(1.35);
+          -ms-transform: scale(1.35);
+          transform: scale(1.35);
+        }
       }
 
       position: relative;
@@ -69,6 +86,12 @@
       .contacts {
         height: 20px;
         margin: 10px 0;
+
+        &:hover {
+          -webkit-transform: scale(1.35);
+          -ms-transform: scale(1.35);
+          transform: scale(1.35);
+        }
       }
     }
 
